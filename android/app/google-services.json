@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "224506734430",
+    "project_id": "fut-manager-4cf37",
+    "storage_bucket": "fut-manager-4cf37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224506734430:android:3a446d5bd7af51123e11cf",
+        "android_client_info": {
+          "package_name": "br.edu.pucgoias.futmaneger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224506734430-rgrrdgm12o7toj452ilhv5vehcsrj7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7uQYTWNDrOeungLj0Qzvp6OBVKsi1mdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224506734430-rgrrdgm12o7toj452ilhv5vehcsrj7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
