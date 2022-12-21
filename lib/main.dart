@@ -19,7 +19,6 @@ Future<void> main() async {
   // );
   // final token = AuthToken.fromCache();
   // final initialRoute = token != null ? Routes.home : AppPages.initial;
-
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: true,

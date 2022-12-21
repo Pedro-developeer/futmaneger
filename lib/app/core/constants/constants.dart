@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const kRedAccent = Color(0xFFF23041);
-  static const kRedDark = Color(0xFFA9000F);
-  static const kWhite = Color(0xFFF2F2F2);
-  static const kBlueAccent = Color(0xFF4EC9F2);
-  static const kBlueDark = Color(0xFF3C1CA5);
-  static const kDark = Color(0xFF1D1D1D);
+  static const kGreen = Color(0xFF377140);
+  static const kRedDark = Color(0xFFEF5350);
+  static const kWhite = Color(0xFFF5F5F5);
+  static const kDark = Color(0xFF171716);
+  static const kGrey = Color(0xFF767672);
 }
 
 class AppTextStyles {
@@ -25,14 +24,14 @@ class AppTextStyles {
   );
 
   static const fontTextButton = TextStyle(
-    color: AppColors.kRedAccent,
-    fontSize: 18,
+    color: AppColors.kGreen,
+    fontSize: 15,
     fontFamily: '.SF UI Display',
     fontWeight: FontWeight.bold,
   );
 
   static const fontTextButtonField = TextStyle(
-    color: AppColors.kRedAccent,
+    color: AppColors.kGreen,
     fontSize: 16,
     fontFamily: '.SF UI Display',
     fontWeight: FontWeight.bold,
@@ -44,10 +43,28 @@ class AppTextStyles {
     fontFamily: '.SF UI Display',
   );
 
+  static const fontTextSub = TextStyle(
+    color: AppColors.kGrey,
+    fontSize: 15,
+    fontFamily: '.SF UI Display',
+  );
+  static const fontTextSubRed = TextStyle(
+    color: AppColors.kRedDark,
+    fontSize: 15,
+    fontFamily: '.SF UI Display',
+  );
+
   static const fontTextTile = TextStyle(
     color: AppColors.kDark,
     fontSize: 18,
     fontFamily: '.SF UI Display',
+  );
+
+  static const fontTextTileTitle = TextStyle(
+    color: AppColors.kDark,
+    fontSize: 18,
+    fontFamily: '.SF UI Display',
+    fontWeight: FontWeight.w500,
   );
 
   static const fontAppBar = TextStyle(

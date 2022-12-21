@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:futmaneger/app/core/constants/constants.dart';
 
-
 // ignore: must_be_immutable
 class TextFieldDefault extends StatefulWidget {
   TextFieldDefault({
@@ -44,6 +43,7 @@ class _TextFieldDefaultState extends State<TextFieldDefault> {
   Widget build(BuildContext context) {
     return Center(
       child: TextFormField(
+        style: AppTextStyles.fontTextTile,
         validator: widget.validator,
         inputFormatters: widget.inputFormatters,
         controller: widget.controller,

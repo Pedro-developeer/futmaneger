@@ -41,21 +41,22 @@ dependencies:
   mega_features:
   flutter_native_splash: ^2.1.6
   flutter_launcher_icons: ^0.11.0
+  dropdown_plus: ^0.0.9
 
 
-# flutter_icons:
-#   image_path: "assets/images/icone.png"
-#   ios: true
-#   remove_alpha_ios: true
-#   android: "launcher_icon"
-#   adaptive_icon_background: "#F23041"
-#   adaptive_icon_foreground: "assets/images/icone.png"
+flutter_icons:
+  image_path: "assets/images/icone.png"
+  ios: true
+  remove_alpha_ios: true
+  android: "launcher_icon"
+  adaptive_icon_background: "#171716"
+  adaptive_icon_foreground: "assets/images/icone.png"
 
-# flutter_native_splash:
-#   color: "#F23041"
-#   image: "assets/images/logo.png"
-#   android: true
-#   ios: true
+flutter_native_splash:
+  color: "#377140"
+  image: "assets/images/logo.png"
+  android: true
+  ios: true
 
 dependency_overrides:
   mega_commons:
@@ -91,9 +92,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - assets/images/
-  #   - assets/fonts/
+  assets:
+    - assets/images/
+    - assets/fonts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

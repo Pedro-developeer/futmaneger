@@ -21,7 +21,7 @@ class ButtonDefault extends StatelessWidget {
       child: ElevatedButton(
         style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all(
-            AppColors.kRedAccent,
+            AppColors.kGreen,
           ),
           elevation: MaterialStateProperty.all(1),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
